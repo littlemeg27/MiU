@@ -1,0 +1,178 @@
+/* 
+Brenna Pavlinchak
+MiU 1211
+Project 1
+This is the css style sheet for my addItem page
+11/4/2012 
+*/
+
+
+/*
+* jQuery Mobile Framework Git Build: SHA1: c2d61e2e592c67519d9a9ed0ba796fa44787e136 <> Date: Tue Sep 25 10:38:12 2012 -0700
+* http://jquerymobile.com
+*
+* Copyright 2012 jQuery Foundation and other contributors
+* Released under the MIT license.
+* http://jquery.org/license
+*
+*/
+
+
+/* Swatches */
+
+/* A
+-----------------------------------------------------------------------------------------------------------*/
+
+		.ui-bar-a {
+			border: 1px solid #2e3192 /*{a-bar-border}*/;
+			background: #2e3192 /*{a-bar-background-color}*/;
+			color: #ffffff /*{a-bar-color}*/;
+			font-weight: bold;
+			text-shadow: 0 /*{a-bar-shadow-x}*/ 1px /*{a-bar-shadow-y}*/ 1px /*{a-bar-shadow-radius}*/ #444444 /*{a-bar-shadow-color}*/;
+			background-image: -webkit-linear-gradient( #3235a0 /*{a-bar-background-start}*/, #292c83 /*{a-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
+					}
+		.ui-bar-a .ui-link-inherit 
+		{
+			color: #ffffff /*{a-bar-color}*/;
+		}
+		
+		.ui-bar-a a.ui-link 
+		{
+			color: #7cc4e7 /*{a-bar-link-color}*/;
+			font-weight: bold;
+		}
+		
+		.ui-bar-a a.ui-link:visited 
+		{
+		    color: #2489ce /*{a-bar-link-visited}*/;
+		}
+		
+		.ui-bar-a a.ui-link:hover 
+		{
+			color: #2489ce /*{a-bar-link-hover}*/;
+		}
+		
+		.ui-bar-a a.ui-link:active 
+		{
+			color: #2489ce /*{a-bar-link-active}*/;
+		}
+		
+		.ui-bar-a,
+		.ui-bar-a input,
+		.ui-bar-a select,
+		.ui-bar-a textarea,
+		.ui-bar-a button 
+		{
+			 font-family: Helvetica, Arial, sans-serif /*{global-font-family}*/;
+		}
+		
+		.ui-body-a,
+		.ui-overlay-a 
+		{
+			border: 1px solid #8c8c8c /*{a-body-border}*/;
+			color: #000000 /*{a-body-color}*/;
+			text-shadow: 0 /*{a-body-shadow-x}*/ 1px /*{a-body-shadow-y}*/ 0 /*{a-body-shadow-radius}*/ #eeeeee /*{a-body-shadow-color}*/;
+			background: #ffffff /*{a-body-background-color}*/;
+			background-image: -webkit-linear-gradient( #FFFFFF /*{a-body-background-start}*/, #e5e5e5 /*{a-body-background-end}*/); /* Chrome 10+, Saf5.1+ */		}
+			
+		.ui-overlay-a 
+		{
+			background-image: none;
+			border-width: 0;
+		}
+		
+		.ui-body-a,
+		.ui-body-a input,
+		.ui-body-a select,
+		.ui-body-a textarea,
+		.ui-body-a button 
+		{
+			 font-family: Helvetica, Arial, sans-serif /*{global-font-family}*/;
+		}
+		
+		.ui-body-a .ui-link-inherit 
+		{
+			color: #000000 /*{a-body-color}*/;
+		}
+		
+		.ui-body-a .ui-link 
+		{
+			color: #2489ce /*{a-body-link-color}*/;
+			font-weight: bold;
+		}
+		
+		.ui-body-a .ui-link:visited 
+		{
+		    color: #2489ce /*{a-body-link-visited}*/;
+		}
+		
+		.ui-body-a .ui-link:hover 
+		{
+			color: #2489ce /*{a-body-link-hover}*/;
+		}
+		
+		.ui-body-a .ui-link:active 
+		{
+			color: #2489ce /*{a-body-link-active}*/;
+		}
+		
+		.ui-btn-up-a 
+		{
+			border: 1px solid #90070c /*{a-bup-border}*/;
+			background: #90070c /*{a-bup-background-color}*/;
+			font-weight: bold;
+			color: #ffffff /*{a-bup-color}*/;
+			text-shadow: 0 /*{a-bup-shadow-x}*/ 1px /*{a-bup-shadow-y}*/ 0 /*{a-bup-shadow-radius}*/ #444444 /*{a-bup-shadow-color}*/;
+			background-image: -webkit-linear-gradient( #90070c /*{a-bup-background-start}*/, #750609 /*{a-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+		
+		}
+		
+		.ui-btn-up-a:visited,
+		.ui-btn-up-a a.ui-link-inherit 
+		{
+			color: #ffffff /*{a-bup-color}*/;
+		}
+		
+		.ui-btn-hover-a 
+		{
+			border: 1px solid #a5080d /*{a-bhover-border}*/;
+			background: #a5080d /*{a-bhover-background-color}*/;
+			font-weight: bold;
+			color: #ffffff /*{a-bhover-color}*/;
+			text-shadow: 0 /*{a-bhover-shadow-x}*/ 1px /*{a-bhover-shadow-y}*/ 0 /*{a-bhover-shadow-radius}*/ #444444 /*{a-bhover-shadow-color}*/; 
+			background-image: -webkit-linear-gradient( #a5080d /*{a-bhover-background-start}*/, #87070a /*{a-bhover-background-end}*/); /*Chrome10+,Saf5.1+ */
+			
+		}
+		
+		.ui-btn-hover-a:visited,
+		.ui-btn-hover-a:hover,
+		.ui-btn-hover-a a.ui-link-inherit 
+		{
+			color: #ffffff /*{a-bhover-color}*/;
+		}
+		
+		.ui-btn-down-a 
+		{
+			border: 1px solid #96080c /*{a-bdown-border}*/;
+			background: #96080c /*{a-bdown-background-color}*/;
+			font-weight: bold;
+			color: #ffffff /*{a-bdown-color}*/;
+			text-shadow: 0 /*{a-bdown-shadow-x}*/ 1px /*{a-bdown-shadow-y}*/ 0 /*{a-bdown-shadow-radius}*/ #444444 /*{a-bdown-shadow-color}*/;
+			background-image: -webkit-linear-gradient( #87070a /*{a-bdown-background-start}*/, #a5080d /*{a-bdown-background-end}*/); 
+			/* Chrome 10+, Saf5.1+ */
+		}
+		
+		.ui-btn-down-a:visited,
+		.ui-btn-down-a:hover,
+		.ui-btn-down-a a.ui-link-inherit 
+		{
+			color: #ffffff /*{a-bdown-color}*/;
+		}
+		
+		.ui-btn-up-a,
+		.ui-btn-hover-a,
+		.ui-btn-down-a 
+		{
+			 font-family: Helvetica, Arial, sans-serif /*{global-font-family}*/;
+			 text-decoration: none;
+		} bvnjmkk 

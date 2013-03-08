@@ -1,0 +1,472 @@
+<!DOCTYPE html> 
+<!--Brenna Pavlinchak-->
+<!--MiU 1211-->
+<!--Project One-->
+<!--This is the index.html page for my app and i am redoing it for MiU-->
+<!--This is the Gold App-->
+
+<!--HTMLTAG-->
+
+	<html>
+		<head>
+			<meta charset= "utf-8"/>
+			<meta name= "description" content= "U.S.A. Lifeguarding"/>
+			<meta name= "keywords" content= "U.S.A., Lifeguarding, Pool Attendent"/>
+			<meta name= "robots" content= "index, flow"/>
+			<meta name= "HandheldFriendly" content= "True">
+			<meta name= "MobileOptimized" content= "320" />
+			<meta name= "viewport" 	 content="width=device-width, initial-scale=1.0"/>
+			
+		<!--css files here-->	
+			<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+			<link rel="stylesheet" href="css/style.css" type="text/css"/>
+			
+		<!--Modernizr goes here-->
+			<script src="js/libs/modernizr.custom.64724.js"></script>		
+			
+		</head>
+
+		<body>
+		
+		<!--Javascript here-->
+			<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+			<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+			<script type="text/javascript" src="js/main.js"></script>
+		
+		<!--Home Page-->
+		<div data-role="page" id="home"><!--page open-->
+		
+			<div data-role="header" data-position="fixed"><!--header open-->
+			
+				<h1>U.S.A. <br> Lifeguards</h1>
+				
+			</div> <!--header closed-->
+			
+			
+			<div data-role="content"><!--content open-->
+			
+				<img style="float:left" src="images/lifeguardCTA.png" alt="LifeguardCTA">
+				
+				<p>This is an Application to keep track of all of the lifeguards that work for U.S.A. Lifeguarding</p><br><br>
+				
+				<a href="addItem.html" data-role="button" data-inline="true">Add a New Lifeguard!</a>
+				
+				
+					<ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Browse Lifeguard Info...">
+					
+						<li data-role="list-divider">Browse Lifeguard Info:</li>
+						
+						<li>
+						
+							<a href="#pool">
+							<img src="images/pool.png"/>
+							<h3>Pool</h3>
+							</a>
+							
+						</li>
+						
+						<li>
+						
+							<a href="#lastName" data-ajax="false">
+							<img src="images/lastName.png"/>
+							<h3>Last Name</h3>
+							</a>
+							
+						</li>
+						
+						<li>
+						
+							<a href="#phoneNumber" data-ajax="false">
+							<img src="images/phoneNumber.png"/>
+							<h3>Phone Number</h3>
+							</a>
+							
+						</li>
+						
+						<li>
+						
+							<a href="#cprDate" data-ajax="false">
+							<img src="images/cpr.png"/>
+							<h3>CPR Certification Date</h3>
+							</a>
+							
+						</li>
+						
+						<li>
+						
+							<a href="#firstAidDate" data-ajax="false">
+							<img src="images/firstAid.png"/>
+							<h3>First Aid Certification Date</h3>
+							</a>
+							
+						</li>
+						
+						<li>
+						
+							<a href="#lifeguardDate" data-ajax="false">
+							<img src="images/lifeguard.png"/>
+							<h3>Lifeguard Certification Date</h3>
+							</a>
+							
+						</li>
+
+
+						
+					</ul><!--end of buttons-->
+				
+			</div> <!--content closed-->
+			
+			
+			<div data-role="footer" data-id="theFooter" data-position="fixed"><!--footer open-->
+				
+				<div data-role="navbar" ><!--navbar open-->
+				
+					<ul>
+						<li><a href="#home" data-icon="home" class="ui-btn-active ui-state-persist">Home</a></li>
+						<li><a href="#newsStream" data-icon="grid">News Stream</a></li>
+						<li><a href="#about" data-icon="info">About</a></li>
+					</ul>
+				
+				</div> <!--navbar closed-->
+				
+		
+		    </div> <!--footer closed-->
+				
+		</div> <!--page closed-->
+	<!--end Home Page-->
+	
+	
+	
+	<!--NewsStream-->
+		<div data-role="page" id="newsStream" data-add-back-btn="true"><!--page open-->
+		
+			<div data-role="header"><!--header open-->
+			
+				<h1>News Stream<h1>
+				
+				</div><!--header closed-->
+				
+			
+			<div data-role="content"><!--content open-->
+			
+				<h2>Goofy Tech News Feed!</h2>
+			
+				<h2>New Iphone out!</h2>
+				
+				<p>But yet no one has any....</p>
+				<p>So people buy the galaxy S3 instead! </p>
+				
+				<h2>Microsoft come out with windows 8</h2>
+				
+				<p>Windows 8 proves to not be mobile friendly on a tablet!! So people buy more iPads!</p>
+				
+				<h2>Black Friday 2012!</h2>
+				
+				<p>Everyone was open way to early! Thanksgiving is for family and food!</p> 
+				<p>Best Buy was crazy!</p>
+				
+		
+			</div><!--content closed-->
+			
+				<div data-role="footer" data-id="theFooter" data-position="fixed"><!--footer open-->
+				
+				<div data-role="navbar" ><!--navbar open-->
+				
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#newsStream" data-icon="grid"  class="ui-btn-active ui-state-persist">News Stream</a></li>
+						<li><a href="#about" data-icon="info">About</a></li>
+					</ul>
+				
+				</div> <!--navbar closed-->
+				
+		
+		    </div> <!--footer closed-->
+		
+		</div><!--closed-->
+	<!--end NewsStream-->
+	
+	
+	
+	<!--about-->
+		<div data-role="page" id="about"><!--page open-->
+		
+			<div data-role="header"><!--header open-->
+			
+				<h1>About<h1>
+			
+			</div><!--header closed-->
+			
+			<div data-role="content"><!--content open-->
+			
+				<a href="file:///Volumes/Macintosh%20HD/Users/ravenmargret/Mobile%20Development/MiU/Project2/Bronze/index.html" 
+					data-role="button" data-inline="true">Link to my Bronze App!</a>
+				
+				<p>The info Page concerning all resources or links used in this project<p>
+				
+				
+				<div data-role="collapsible-set"><!--collap set open-->
+			
+					<div data-role="collapsible" data-collapsed="true" data-theme="b"><!--collap 1 open-->
+					
+						<h3>Gold App</h3>
+						<p>This is the link to my GitHub Gold App</p>
+						<a href="https://github.com/littlemeg27/Mobile-Development/blob/master/MiU/Project2/Gold/index.html" data-ajax="false"></a>
+					
+					</div><!--collap 1 closed-->
+			
+					<div data-role="collapsible" data-collapsed="true" data-theme="b"><!--collap 2 open-->
+					
+						<h3>Bronze App</h3>
+						<p>This is the link to my GitHub Bronze App</p>
+						<a href="https://github.com/littlemeg27/Mobile-Development/blob/master/MiU/Project2/Bronze/index.html" data-ajax="false"></a>
+						
+					</div><!--collap 2 closed-->
+					
+					<div data-role="collapsible" data-collapsed="true" data-theme="b"><!--collap 3 open-->
+					
+						<h3>Project One</h3>
+						<p>This is the link to my GitHub Project One since thanksgiving made things a little bit funky</p>
+						<a href="https://github.com/littlemeg27/Mobile-Development/tree/master/MiU/Project1" data-ajax="false"></a>
+						
+					</div><!--collap 3 closed-->
+					
+					
+				</div><!--Closed collap set-->
+
+			
+			</div><!--content closed-->
+			
+				<div data-role="footer" data-id="theFooter" data-position="fixed"><!--footer open-->
+				
+				<div data-role="navbar" ><!--navbar open-->
+				
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#newsStream" data-icon="grid">News Stream</a></li>
+						<li><a href="#about" data-icon="info" class="ui-btn-active ui-state-persist">About</a></li>
+					</ul>
+				
+				</div> <!--navbar closed-->
+				
+		
+		    </div> <!--footer closed-->
+		
+		</div><!--closed-->
+	<!--end about-->	
+
+			
+				
+	<!--Pool-->
+		<div data-role="page" id="pool" data-add-back-btn="true"><!--page open-->
+		
+			<div data-role="header"><!--header open-->
+			
+				<h1>Pool<h1>
+			
+			</div><!--header closed-->
+			
+			<div data-role="content"><!--content open-->
+				
+				<p>Pool<p>
+			
+			</div><!--closed-->
+		
+				<div data-role="footer" data-id="theFooter" data-position="fixed"><!--footer open-->
+				
+				<div data-role="navbar" ><!--navbar open-->
+				
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#newsStream" data-icon="grid">News Stream</a></li>
+						<li><a href="#about" data-icon="info">About</a></li>
+					</ul>
+				
+				</div> <!--navbar closed-->
+				
+		
+		    </div> <!--footer closed-->
+		
+		</div><!--closed-->
+	<!--end Pool-->
+	
+	
+	
+	<!--Lifeguard Last Name-->
+		<div data-role="page" id="lastName" data-add-back-btn="true"><!--page open-->
+		
+			<div data-role="header"><!--header open-->
+			
+				<h1>Lifeguard Last Name<h1>
+			
+			</div><!--header closed-->
+			
+			<div data-role="content"><!--content open-->
+				
+				<p>Lifeguard Last Name<p>
+			
+			</div><!--closed-->
+			
+				<div data-role="footer" data-id="theFooter" data-position="fixed"><!--footer open-->
+				
+				<div data-role="navbar" ><!--navbar open-->
+				
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#newsStream" data-icon="grid">News Stream</a></li>
+						<li><a href="#about" data-icon="info">About</a></li>
+					</ul>
+				
+				</div> <!--navbar closed-->
+				
+		
+		    </div> <!--footer closed-->
+		
+		</div><!--closed-->
+	<!--end Lifeguard Last Name-->
+	
+	
+			
+	<!--Phone Number-->
+		<div data-role="page" id="phoneNumber" data-add-back-btn="true">
+		
+			<div data-role="header">
+			
+				<h1>Phone Number<h1>
+			
+			</div><!--header closed-->
+			
+			<div data-role="content"><!--content open-->
+				
+				<p>Phone Number<p>
+			
+			</div><!--content closed-->
+			
+				<div data-role="footer" data-id="theFooter" data-position="fixed"><!--footer open-->
+				
+				<div data-role="navbar" ><!--navbar open-->
+				
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#newsStream" data-icon="grid">News Stream</a></li>
+						<li><a href="#about" data-icon="info">About</a></li>
+					</ul>
+				
+				</div> <!--navbar closed-->
+				
+		
+		    </div> <!--footer closed-->
+		
+		</div><!--closed-->
+	<!--end Phone Number-->
+	
+	
+	
+	<!--CPR Certification Date-->
+		<div data-role="page" id="cprDate" data-add-back-btn="true"><!--page open-->
+		
+			<div data-role="header"><!--header open-->
+			
+				<h1>CPR Certification Date<h1>
+			
+			</div><!--header closed-->
+			
+			<div data-role="content"><!--content open-->
+				
+				<p>CPR Certification Date<p>
+			
+			</div><!--closed-->
+			
+				<div data-role="footer" data-id="theFooter" data-position="fixed"><!--footer open-->
+				
+				<div data-role="navbar" ><!--navbar open-->
+				
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#newsStream" data-icon="grid">News Stream</a></li>
+						<li><a href="#about" data-icon="info">About</a></li>
+					</ul>
+				
+				</div> <!--navbar closed-->
+				
+		
+		    </div> <!--footer closed-->
+		
+		</div><!--closed-->
+	<!--end CPR Certification Date-->
+	
+	
+			
+	<!--First Aid Certification Date-->
+		<div data-role="page" id="firstAidDate" data-add-back-btn="true"><!--page open-->
+		
+			<div data-role="header"><!--header open-->
+			
+				<h1>First Aid Certification Date<h1>
+			
+			</div><!--header closed-->
+			
+			<div data-role="content"><!--content open-->
+				
+				<p>First Aid Certification Date<p>
+			
+			</div><!--content closed-->
+			
+			<div data-role="footer" data-id="theFooter" data-position="fixed"><!--footer open-->		
+					
+				<div data-role="navbar" ><!--navbar open-->
+				
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#newsStream" data-icon="grid">News Stream</a></li>
+						<li><a href="#about" data-icon="info">About</a></li>
+					</ul>
+				
+				</div> <!--navbar closed-->
+				
+		
+		    </div> <!--footer closed-->
+		    
+		</div><!--closed-->
+		
+	<!--end First Aid Certification Date-->
+	
+	
+			
+	<!--Lifeguard Certification Date-->
+		<div data-role="page" id="lifeguardDate" data-add-back-btn="true"><!--page open-->
+		
+			<div data-role="header"><!--header open-->
+			
+				<h1>Lifeguard Certification Date<h1>
+			
+			</div><!--header closed-->
+			
+			<div data-role="content"><!--content open-->
+				
+				<p>Lifeguard Certification Date<p>
+			
+			</div><!--content closed-->
+			
+				<div data-role="footer" data-id="theFooter" data-position="fixed"><!--footer open-->
+				
+				<div data-role="navbar" ><!--navbar open-->
+				
+					<ul>
+						<li><a href="#home" data-icon="home">Home</a></li>
+						<li><a href="#newsStream" data-icon="grid">News Stream</a></li>
+						<li><a href="#about" data-icon="info">About</a></li>
+					</ul>
+				
+				</div> <!--navbar closed-->
+				
+		
+		    </div> <!--footer closed-->
+		
+		</div><!--closed-->
+		
+	<!--end Lifeguard Certification Date-->
+		 
+
+		</body>
+	</html>
